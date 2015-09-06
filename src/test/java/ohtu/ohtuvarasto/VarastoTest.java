@@ -27,8 +27,7 @@ public class VarastoTest {
 
     @Test
     public void uudellaVarastollaOikeaTilavuus() {
-        // assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
-        assertEquals(9, varasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
     }
 
     @Test
